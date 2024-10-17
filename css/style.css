@@ -1,0 +1,356 @@
+/* home dll */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: olive   ;
+    align-items: center;
+    padding: 35px;
+    font-family: sans-serif;
+}
+.logo h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    left: -0;
+}
+.logo h1 span{
+    color: black;
+}
+.nav-link ul{
+    display: flex;
+    list-style: none;
+}
+.nav-link ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.06;
+}
+.nav-link ul li a:hover{
+    color: black;
+}
+.home{
+    width:100% ;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000004b;
+    z-index: -1;
+} 
+.home h1{
+    color: white;
+    font-size: 40px;
+    text-transform:uppercase ;
+    margin-bottom: 10px;
+    padding-left:100px ;
+}
+.home p{
+    color: white;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    width: 800px;
+}
+.home a{
+    width: 100px;
+    text-decoration:none ;
+    color: goldenrod;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    transition: 300ms;
+    margin-left: 100px;
+}
+.home a:hover{
+    font-size: 23px;
+    transition: 300ms;
+}
+.tombol{
+    width: 100px;
+}
+.tombol a{
+    background-color: red;
+    color: white;
+}
+
+.bg video{
+    z-index: -9999999999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+/* bagian card */
+.card1{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin-right: 230px ;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 7px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.b{
+    margin: 100px;
+}
+.b a{
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+.card1 img{
+    width: 100%;
+    height: auto;
+}
+.up_koming{
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.garis{
+    width: 300px;
+    height: 10px;
+    background-color: orangered;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.card2{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin:0px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 7px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.b2{
+    margin: 100px;
+}
+.b2 a{
+    text-align: center;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.card2 img{
+    width: 100%;
+    height: 330px;
+}
+.up_koming1{
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.garis1{
+    width: 300px;
+    height: 10px;
+    background-color: orangered;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.container-card{
+    margin: 50px;
+}
+/* gambar yg di bawah */
+.explor img{
+    width: 100%;
+    height: 800px;
+}
+
+.explor{
+    width:100% ;
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.explor::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} 
+.explor h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-transform:uppercase ;
+    margin-bottom: 10px;
+    padding-left:300px ;
+}
+.garis2{
+    width: 300px;
+    height: 10px;
+    background-color: orangered;
+    margin-left:370px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.explor p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 260px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    width: 800px;
+    text-align: center;
+}
+.explor a{
+    text-decoration:none ;
+    color: goldenrod;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    transition: 300ms;
+}
+.lermore{
+    width:150px;
+    margin-left:470px;
+}
+.lermore a{
+    background-color:red;
+    color: white;
+    padding: 10px;
+
+}
+
+.bg{
+    z-index: -9999999999;
+    position: absolute;
+    top: -1000;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+} 
+/* footer nya */
+footer{
+    background-color: rgb(59, 22, 22);
+    height: 400px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+footer h4{
+    text-align: center;
+    position: relative;
+    top: 350px;
+    font-size: 25px;
+    border-top: 3px solid;
+    margin: auto;
+    
+}
+footer p{
+    position: relative;
+    left: 550px;
+    top: 20px;
+    font-size: 25px;
+    font-family: arial;
+    width: 175px;
+}
+footer ul{
+    position: relative;;
+    left: 470px;
+    top: 40px;
+    margin: auto;
+}
+footer ul li {
+    margin-bottom: 5px;
+    padding: 5px;
+    display: inline;
+    margin: auto;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+footer li a:hover{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition-duration: 300ms;
+
+}
+.contak{
+    position: relative;
+    left: 980px;
+    bottom: 30px;
+
+}
+.contak h5{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size:20px ;
+    width: 300px;
+}
+.bintang h1{
+    position: relative;
+    bottom:110px ;
+    left: 140px;
+}
+.bintang h5{
+    position: relative;
+    left: 50px ;
+    font-size: 23px;
+    width: 300px;
+    text-align: center;
+    bottom: 65px;
+}
+.bintang span{
+    color:red;
+}
